@@ -1,7 +1,7 @@
 {
   "name": "kinto",
   "version": "11.2.0",
-  "description": "An Offline-First JavaScript client for Kinto.",
+  "description": "An Offline-First JavaScript client for Kinto. (Nozbe)",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel -d lib/ src/",
@@ -136,7 +136,7 @@
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-polyfill": "^6.22.0",
     "btoa": "^1.1.2",
-    "kinto-http": ">=4.3.3",
+    "kinto-http": "nozbe/kinto-http.js#3a3e2d9597b72c9e3c4ed9a1cb2c62251bc1d009",
     "uuid": "^3.0.0"
   },
   "devDependencies": {
